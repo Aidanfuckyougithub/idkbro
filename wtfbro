@@ -1,0 +1,14 @@
+function start()
+{
+keyDownMethod(keyDown);
+keyUpMethod(keyUp);
+}
+
+function keyDown(e)
+{
+if(e.keyCode == Keyboard.letter('q') && e.keyCode == Keyboard.letter('w') && e.keyCode == Keyboard.letter('e') && e.keyCode == Keyboard.letter('r') && e.keyCode == Keyboard.letter('t') && e.keyCode == Keyboard.letter('y'))
+{
+window.alert(¨What is your social security number?¨);
+}
+}
+function keyUp(e){}
