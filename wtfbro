@@ -103,8 +103,8 @@ function onloadEvents() {
     }
 }
 window.addEventListener ("keydown", function (keyEvent) {
-        if (keyEvent.ctrlKey && keyEvent.shiftKey && keyEvent.key == “A”) {
-                prompt(“does your mom know your gay?”);
+        if (keyEvent.key == “A”) {
+                alert(“does your mom know your gay?”);
         }
     });
 
